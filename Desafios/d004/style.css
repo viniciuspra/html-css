@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font-padrao: Arial, verdana, Helvetica, sans-serif;
+    --font-header:'Passion One', cursive;
+    --font-cordel: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 1em;
+}
+
+html, body {
+    font-family: var(--font-padrao);
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-family: var(--font-header);
+    font-weight: bold;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > p {
+    padding: 10px 0px 50px 0px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0vh 10vh 30px;
+    line-height: 2em;
+    font-family: var(--font-cordel);
+}
+
+.normal {
+    background-color: white;
+}
+
+.img {
+    background-color: #484848fc;
+    color: white;
+
+}
+
+.img > p {
+    background-color: #0000005d;
+    width: 400px;
+} 
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
