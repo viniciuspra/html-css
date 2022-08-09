@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --font-padrao: Arial, verdana, Helvetica, sans-serif;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
     --font-header:'Passion One', cursive;
     --font-cordel: 'Sriracha', cursive;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 header > h1 {
-    font-size: 3em;
+    font-size: clamp(3rem, 10vw, 6em); 
     font-family: var(--font-header);
     font-weight: bold;
     font-variant: small-caps;
@@ -53,6 +53,7 @@ section {
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
     font-family: var(--font-cordel);
+    font-size: clamp(1em, 4vw, 2em);
 }
 
 .normal {
