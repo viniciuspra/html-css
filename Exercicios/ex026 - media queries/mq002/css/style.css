@@ -11,15 +11,17 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: #B3A6A1;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 } 
 
 h1 {
     color: white;
-    background-color: #698C69;
+    background-color: #0b20bb71;
     font-size: 1.7em;
-    height: 70px;
     text-align: center;
-    padding-top: 30px;
     text-shadow: 2px 2px 0px #b3a6a168;
+    padding: 20px 5px 20px 5px;
 }
